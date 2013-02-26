@@ -70,6 +70,7 @@
       <echo>Resolving properties</echo>
       <ivy:resolve/>
       <ivy:cachepath pathid="lib.path.id" conf="build"/> 
+      <ivy:retrieve />
   </target>
   
   <target name="install-ivy" depends="download-ivy" description="Installing Ivy">
